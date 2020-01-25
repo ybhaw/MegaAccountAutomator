@@ -10,5 +10,6 @@
   },
   "confirm": true,
   "mega": "C:\\Users\\vaibh\\AppData\\Local\\MEGAcmd",
-  "wait-time": 20
+  "wait-time": 20,
+  "output-file": "C:\\Users\\vaibh\\RiderProjects\\AccountAutomator\\output.txt"
 }

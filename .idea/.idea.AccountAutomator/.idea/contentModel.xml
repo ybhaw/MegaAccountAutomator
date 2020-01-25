@@ -14,12 +14,13 @@
       <e p="logins.txt" t="Include" />
       <e p="MegaManager.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
+        <e p="Release" t="Include">
           <e p="netcoreapp3.1" t="Include">
             <e p="AccountAutomator.AssemblyInfo.cs" t="Include" />
           </e>
         </e>
       </e>
+      <e p="output.txt" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Program.cs" t="Include" />
       <e p="Readme.md" t="Include" />

@@ -9,6 +9,7 @@ namespace AccountAutomator
         public bool Confirm { get; set; } = true;
         public string MegaDir { get; set; }
         public int Wait { get; set; } = 30;
+        public string OutputFile { get; set; } = "./login.txt";
     }
 
     public class Password

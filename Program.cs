@@ -15,13 +15,14 @@ namespace AccountAutomator
         static Configuration CreateConfig()
         {
             Configuration config = new Configuration();
-            using (StreamReader file = new StreamReader("../../../config.json"))
+            using (StreamReader file = new StreamReader("./config.json"))
             {
                 var t = file.ReadToEnd();
                 var c = JObject.Parse(t);
                 config.Confirm = Convert.ToBoolean(c["confirm"]);
                 config.MegaDir = Convert.ToString(c["mega"]);
                 config.Wait = Convert.ToInt32(c["wait-time"]);
+                config.OutputFile = Convert.ToString(c["output-file"]);
                 config.Password = new Password
                 {
                     AutoGenerate = Convert.ToBoolean(c["password"]["auto-generate"]), 
@@ -58,7 +59,7 @@ namespace AccountAutomator
             Console.WriteLine("Attemping to confirm account now...");
             mega.ConfirmAccount(email, password, browser.GetConfirmation());
             Console.WriteLine("Writing details to file now...");
-            using (StreamWriter file = new StreamWriter("../../../logins.txt"))
+            using (StreamWriter file = new StreamWriter(config.OutputFile))
             {
                 file.WriteLine($"{email} {password}");
             }

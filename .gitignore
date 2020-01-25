@@ -2,3 +2,4 @@ bin/
 obj/
 /packages/
 logins.txt
+output.txt
