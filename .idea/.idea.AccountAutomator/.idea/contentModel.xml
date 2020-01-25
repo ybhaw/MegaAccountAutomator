@@ -11,6 +11,7 @@
       <e p="BrowseManager.cs" t="Include" />
       <e p="config.json" t="Include" />
       <e p="Configuration.cs" t="Include" />
+      <e p="logins.txt" t="Include" />
       <e p="MegaManager.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -21,6 +22,7 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Program.cs" t="Include" />
+      <e p="Readme.md" t="Include" />
     </e>
   </component>
 </project>

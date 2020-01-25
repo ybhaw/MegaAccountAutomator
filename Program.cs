@@ -40,7 +40,7 @@ namespace AccountAutomator
         static void Main(string[] args)
         {
             var config = CreateConfig();
-
+            Console.WriteLine("Mega Account Creator : https://github.com/ybhaw/MegaAccountAutomator");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Starting browser...");
             var browser = new BrowseManager(config);
