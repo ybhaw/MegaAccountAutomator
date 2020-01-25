@@ -1,0 +1,14 @@
+﻿{
+  "password": {
+    "auto-generate": false,
+    "default": "1234"
+  },
+  "name": {
+    "keep-name": true,
+    "auto-generate": false,
+    "default": "AutoGen"
+  },
+  "confirm": true,
+  "mega": "C:\\Users\\vaibh\\AppData\\Local\\MEGAcmd",
+  "wait-time": 20
+}

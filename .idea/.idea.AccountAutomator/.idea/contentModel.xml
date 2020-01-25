@@ -8,6 +8,10 @@
       <e p="AccountAutomator.csproj" t="IncludeRecursive" />
       <e p="AccountAutomator.sln" t="IncludeFlat" />
       <e p="bin" t="ExcludeRecursive" />
+      <e p="BrowseManager.cs" t="Include" />
+      <e p="config.json" t="Include" />
+      <e p="Configuration.cs" t="Include" />
+      <e p="MegaManager.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.1" t="Include">
